@@ -98,7 +98,7 @@ autocmd FileType perl setlocal equalprg=perltidy\ -st
 set background=dark
 colorscheme solarized
 set number
-set t_Co=16
+set t_Co=256
 
 " change the syntastic error highlight color to make it more readable
 hi QuickFixLine cterm=NONE ctermfg=001 ctermbg=250 
