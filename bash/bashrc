@@ -7,3 +7,4 @@ export DISPLAY=:0.0
 #eval `dircolors ~/dotfiles/dircolors/dircolors.256dark`
 eval `dircolors ~/dotfiles/dircolors/dircolors.ansi-dark`
 
+export PATH=".:$PATH"
