@@ -94,7 +94,8 @@ filetype plugin indent on
 autocmd FileType perl setlocal equalprg=perltidy\ -st
 
 " Color theme / scheme
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=16
+let g:solarized_contrast  = "low"
 set background=dark
 colorscheme solarized
 set number
