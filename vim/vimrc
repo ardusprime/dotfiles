@@ -22,8 +22,9 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jlanzarotta/bufexplorer'
 Plugin 'majutsushi/tagbar'
-Plugin 'joonty/vdebug'
+"Plugin 'joonty/vdebug'
 Plugin 'jgdavey/tslime.vim'
+Plugin 'Chiel92/vim-autoformat'
 "
 "Bundle 'Valloric/YouCompleteMe' " need gcc 4.9
 "
@@ -115,3 +116,4 @@ nmap <C-e>n <Plug>NormalModeSendToTmux
 nmap <C-e>v <Plug>SetTmuxVars
 nmap <C-e>t :Tmux <your_command><CR>
 
+noremap <F4> :Autoformat<CR>
